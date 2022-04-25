@@ -128,7 +128,7 @@ const startApplication = async () => {
         query.viewAllEmployees(startApplication);
     }
     else {
-        console.log("Have a nice day!");
+        console.log("Closing Application, goodbye!");
         return;
     }
 };
